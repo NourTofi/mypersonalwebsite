@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    box-shadow: 0px -2px 10px rgb(255, 140, 32);
+}
+
+.logo {
+    text-decoration: none;
+    color: rgba(255, 86, 8, 0.8);
+    font-weight: 900;
+    font-size: larger;
+}
+
+.moon {
+    background-color: aqua;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(231, 131, 10);
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 0, 8);
+}
+
+section {
+    padding: 100px 200px;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.my_name {
+    color: rgb(45, 194, 208);
+}
+
+.imag {
+    width: 45%;
+    height: 88%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.imag img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+#dgr {
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
+.ined {
+    padding-top: 30%;
+}
+
+#education {
+    color: rgba(250, 131, 52, 0.8);
+    background-color: rgb(255, 247, 242);
+}
+
+.education {
+    position: absolute;
+    height: 75%;
+    width: 25%;
+}
+
+.img_e {
+    width: 50%;
+    position: absolute;
+    top: 125%;
+    right: 5px;
+}
+
+.uok {
+    position: absolute;
+    width: 42%;
+    left: 36%;
+    transform: translate(-50%);
+}
+
+.harvard {
+    position: absolute;
+    padding-top: 30%;
+    width: 42%;
+    left: 36%;
+    transform: translate(-50%);
+}
+
+#skills {
+    color: rgba(250, 131, 52, 0.8);
+    background-color: rgb(255, 247, 242);
+}
+
+.tec_skl {
+    position: absolute;
+    width: 30%;
+}
+
+.skl {
+    padding-top: 30%;
+}
+
+.lng_skl {
+    position: absolute;
+    height: 87.5%;
+    left: 60%;
+    width: 30%;
+}
+
+#lng_skl {
+    color: rgba(250, 131, 52, 0.8);
+    background-color: rgb(255, 247, 242);
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: rgb(255, 102, 0);
+}
+
+@media(max-width:1092px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .Home {
+        font-size: 15px;
+        padding-left: 70px;
+    }
+
+    .imag {
+        width: 10%;
+        height: 70%;
+    }
+
+    .education {
+        left: 80px;
+    }
+
+    .ined {
+        width: 250px;
+    }
+
+    .uok {
+        width: 50%;
+        padding-left: 70px;
+    }
+
+    .harvard {
+        padding-top: 48%;
+        padding-left: 70px;
+        width: 50%;
+    }
+
+    .skills {
+        padding-left: 30px;
+    }
+
+    .tec_skl {
+        font-size: 13px;
+
+    }
+
+    .lng_skl {
+        font-size: 13px;
+        height: 69%;
+        padding-left: 2px;
+    }
+
+}
+
+@media(max-width:703px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .Home {
+        font-size: 13px;
+        padding-left: 7px;
+    }
+
+    .imag {
+        width: 0;
+        height: 65%;
+    }
+
+    .exed {
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .education {
+        left: 50px;
+    }
+
+    .uok {
+        width: 70%;
+        left: 45%;
+        top: -30px;
+    }
+
+    .harvard {
+        padding-top: 40%;
+        left: 45%;
+        width: 70%;
+    }
+
+    .skills {
+        padding-left: 30px;
+    }
+
+    .tec_skl {
+        font-size: 13px;
+
+    }
+
+    .lng_skl {
+        font-size: 13px;
+        height: 84%;
+        padding-left: 2px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+}
